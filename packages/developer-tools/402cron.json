@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "402cron",
+  "packageName": "@toolsdk-remote/402cron",
+  "description": "Paid cron for AI agents: create, list, pause, resume, run and delete scheduled tasks that call an HTTPS URL on time with a signed webhook, and register destinations. Pricing, docs and status are free; deliveries come from prepaid packs bought over x402 in USDC on Base (20 deliveries for $0.02). No account or API key: the paying wallet is the identity.",
+  "url": "https://github.com/paranormalen2/402cron-mcp",
+  "readme": "https://402cron.com/llms.txt",
+  "runtime": "node",
+  "author": "402cron",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://402cron.com/mcp"
+    }
+  ]
+}
